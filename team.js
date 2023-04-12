@@ -1,6 +1,27 @@
 const team = [
-  {
-    name: "Simone",
+    {name: "Nicola",
+    surname: "Pisani",
+    age: "24",
+    city: "Potenza",
+    hobby: "Make music",
+    favoriteFood: "Sushi",
+    favoriteVideoGame: "Call of duty",
+    favoriteFilm: "American Psycho",
+    favoriteBook: 'American Psycho',
+    petName: 'Sasha'},
+    
+    {name: "Antonino",
+    surname: "Alampi",
+    age: 23,
+    city: "Reggio di Calabria",
+    hobby: "",
+    favoriteFood: "Sushi",
+    favoriteVideoGame: "Dark Souls",
+    favoriteFilm: "Harry Potter",
+    favoriteBook: "",
+    petName: ""},
+     
+    {name: "Simone",
     surname: "Sbrilli",
     age: "31",
     city: "Roma",
@@ -9,10 +30,9 @@ const team = [
     favoriteVideoGame: "Genshin Impact",
     favoriteFilm: "Neon Genesis Evangelion",
     favoriteBook: 'Game OF Thrones',
-    petName: 'Dylan, Black, Lucky',
-  },
-    {
-    name: "Mirka",
+    petName: 'Dylan, Black, Lucky'},
+     
+    {name: "Mirka",
     surname: "Medaglini",
     age: "25",
     city: "Lucca",
@@ -21,7 +41,5 @@ const team = [
     favoriteVideoGame: "Super Mario Odyssey",
     favoriteFilm: "Eternal sunshine of the spotless mind",
     favoriteBook: "Il maestro e Margherita",
-    petName: "Nikita",
-  },
-
+    petName: "Nikita"},
 ];
