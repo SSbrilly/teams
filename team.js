@@ -1,4 +1,15 @@
 const team = [
+    {name: "Jonna",
+    surname: "Geronimo",
+    age: "26",
+    city: "Milan",
+    hobby: "Drawing",
+    favoriteFood: "Coffee",
+    favoriteVideoGame: "Legend of Zelda",
+    favoriteFilm: "Parasite",
+    favoriteBook: "Pride and Prejudice",
+    petName: ""},
+
     {name: "Nicola",
     surname: "Pisani",
     age: "24",
