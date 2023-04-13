@@ -102,4 +102,4 @@ function petNames (arr) {
     }
 }
 
-petnames(team);
+petNames(team);
