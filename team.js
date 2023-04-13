@@ -65,14 +65,18 @@ const team = [
   },
 ];
 
-function sameGame (arr) {
-  for (let i=0; i < arr.length; i++){
-          if(arr[i].favoriteVideoGame == "LOL" || arr[i].favoriteVideoGame == "League Of Legends"){
-              console.log(arr[i].name);
-          }
-      }
-      };
-      sameGame(team);
+function sameGame(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (
+      arr[i].favoriteVideoGame == "LOL" ||
+      arr[i].favoriteVideoGame == "League Of Legends"
+    ) {
+      console.log(arr[i].name);
+    }
+  }
+}
+
+sameGame(team);
 
 function sendName() {
   for (let i = 0; i < team.length; i++) {
@@ -88,6 +92,7 @@ function sendName() {
     break;
   }
 }
+
 sendName();
 
 function ageList() {
@@ -96,12 +101,16 @@ function ageList() {
     console.log(team[i].age);
   }
 
-function petNames (arr) {
-    for (let i=0; i < arr.length; i++){
-        if(arr[i].petName !== ""){
-            console.log(arr[i].name +":", arr[i].petName)
-        }
+}
+
+ageList();
+
+function petNames(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].petName !== "") {
+      console.log(arr[i].name + ":", arr[i].petName);
     }
+  }
 }
 
 petNames(team);
