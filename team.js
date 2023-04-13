@@ -75,6 +75,7 @@ function sameGame(arr) {
     }
   }
 }
+
 sameGame(team);
 
 function sendName() {
@@ -91,6 +92,7 @@ function sendName() {
     break;
   }
 }
+
 sendName();
 
 function ageList() {
@@ -98,7 +100,9 @@ function ageList() {
   for (let i = 0; i < team.length; i++) {
     console.log(team[i].age);
   }
+
 }
+
 ageList();
 
 function petNames(arr) {
@@ -108,4 +112,5 @@ function petNames(arr) {
     }
   }
 }
+
 petNames(team);
