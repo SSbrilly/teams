@@ -65,6 +65,15 @@ const team = [
   },
 ];
 
+function sameGame (arr) {
+  for (let i=0; i < arr.length; i++){
+          if(arr[i].favoriteVideoGame == "LOL" || arr[i].favoriteVideoGame == "League Of Legends"){
+              console.log(arr[i].name);
+          }
+      }
+      };
+      sameGame(team);
+
 function sendName() {
   for (let i = 0; i < team.length; i++) {
     for (let j = i + 1; j < team.length; j++) {
@@ -86,13 +95,6 @@ function ageList() {
   for (let i = 0; i < team.length; i++) {
     console.log(team[i].age);
   }
-}
-ageList();
-
-team.sort((a, b) => a.name.localeCompare(b.name));
-for (let i = 0; i < team.length; i++) {
-  console.log(team[i].name);
-}
 
 function petNames (arr) {
     for (let i=0; i < arr.length; i++){
