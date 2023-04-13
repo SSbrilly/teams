@@ -54,3 +54,15 @@ const team = [
     favoriteBook: "Il maestro e Margherita",
     petName: "Nikita"},
 ];
+
+function ageList(){
+  team.sort((a, b) => a.age.toString().localeCompare(b.age.toString()));
+  for (let i = 0; i < team.length; i++) {
+    console.log(team[i].age);
+  }
+  }
+  
+  ageList();
+
+
+
