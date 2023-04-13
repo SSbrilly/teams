@@ -12,7 +12,7 @@ const team = [
 
     {name: "Nicola",
     surname: "Pisani",
-    age: "24",
+    age: 24,
     city: "Potenza",
     hobby: "Make music",
     favoriteFood: "Sushi",
@@ -54,3 +54,38 @@ const team = [
     favoriteBook: "Il maestro e Margherita",
     petName: "Nikita"},
 ];
+
+
+function sendName() {
+  for (let i = 0; i < team.length; i++) {
+    for (let j = i + 1; j < team.length; j++) {
+      if (team[i].name === team[j].name) {
+        console.log(team[i].name);
+        break
+      } else {
+        console.log("Same name not found");
+        break;
+      }
+    }
+    break;
+  }
+}
+sendName()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
