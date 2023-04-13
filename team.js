@@ -65,6 +65,22 @@ const team = [
   },
 ];
 
+function sendName() {
+  for (let i = 0; i < team.length; i++) {
+    for (let j = i + 1; j < team.length; j++) {
+      if (team[i].name === team[j].name) {
+        console.log(team[i].name);
+        break;
+      } else {
+        console.log("Same name not found");
+        break;
+      }
+    }
+    break;
+  }
+}
+sendName();
+
 function ageList() {
   team.sort((a, b) => a.age.toString().localeCompare(b.age.toString()));
   for (let i = 0; i < team.length; i++) {
