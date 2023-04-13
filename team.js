@@ -93,3 +93,13 @@ team.sort((a, b) => a.name.localeCompare(b.name));
 for (let i = 0; i < team.length; i++) {
   console.log(team[i].name);
 }
+
+function petNames (arr) {
+    for (let i=0; i < arr.length; i++){
+        if(arr[i].petName !== ""){
+            console.log(arr[i].name +":", arr[i].petName)
+        }
+    }
+}
+
+petnames(team);
