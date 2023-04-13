@@ -65,7 +65,15 @@ const team = [
   },
 ];
 
+function ageList() {
+  team.sort((a, b) => a.age.toString().localeCompare(b.age.toString()));
+  for (let i = 0; i < team.length; i++) {
+    console.log(team[i].age);
+  }
+}
+ageList();
+
 team.sort((a, b) => a.name.localeCompare(b.name));
 for (let i = 0; i < team.length; i++) {
-    console.log(team[i].name);
-};
+  console.log(team[i].name);
+}
