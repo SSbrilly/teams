@@ -65,15 +65,12 @@ const team = [
   },
 ];
 
-function ageList() {
-  team.sort((a, b) => a.age.toString().localeCompare(b.age.toString()));
-  for (let i = 0; i < team.length; i++) {
-    console.log(team[i].age);
+function samegame (arr) {
+  for (let i=0; i < arr.length; i++){
+          if(arr[i].favoriteVideoGame == "LOL" || arr[i].favoriteVideoGame == "League Of Legends"){
+              console.log(arr[i].name);
+          }
+      }
   }
-}
-ageList();
 
-team.sort((a, b) => a.name.localeCompare(b.name));
-for (let i = 0; i < team.length; i++) {
-  console.log(team[i].name);
-}
+samegame(team);
