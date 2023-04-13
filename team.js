@@ -93,5 +93,4 @@ function ageList() {
   for (let i = 0; i < team.length; i++) {
     console.log(team[i].age);
   }
-
 samegame(team);
