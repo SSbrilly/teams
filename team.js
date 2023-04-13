@@ -100,10 +100,18 @@ function ageList() {
   for (let i = 0; i < team.length; i++) {
     console.log(team[i].age);
   }
+  
+  ageList();
 
+function average (arr) {
+  let sum=0;
+  for (let i=0; i < arr.length; i++){
+      sum += arr[i].age;
+  }
+  return sum / arr.length;
 }
 
-ageList();
+console.log(average(team));
 
 function petNames(arr) {
   for (let i = 0; i < arr.length; i++) {
