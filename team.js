@@ -99,6 +99,7 @@ function ageList() {
     console.log(team[i].age);
   }
 }
+ageList();
 
 function petNames(arr) {
   for (let i = 0; i < arr.length; i++) {
@@ -107,5 +108,4 @@ function petNames(arr) {
     }
   }
 }
-
 petNames(team);
